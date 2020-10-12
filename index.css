@@ -1,0 +1,107 @@
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    
+    .navbar {
+        background-color: black;
+        font: white;
+        width: 100vw;
+        display: flex;
+        height: 8vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar li {
+        padding: 6px;
+    }
+    
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navbar li a:hover {
+        background-color: rgb(65, 64, 37);
+        padding: 20px;
+    }
+    
+    .navbar::before {
+        background: url(/1.jpg) no-repeat center center/cover;
+        content: "";
+        position: absolute;
+        z-index: -1;
+        opacity: 0.8;
+        left: 0px;
+        top: 40px;
+        height: 150%;
+        width: 100%;
+    }
+    
+    @media only screen and (min-width: 1000px) {
+        .itemmain {
+            display: flex;
+        }
+        #project {
+            margin-left: 260px;
+        }
+    }
+    
+    .instruction {
+        font-family: 'Sansita Swashed', cursive;
+        background-color: #1a2711bf;
+        color: white;
+        border: 2px solid black;
+        border-radius: 20px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        height: 300px;
+        width: 30%;
+        font-size: 27px;
+        padding: 12px;
+        margin-top: 82px;
+        margin-left: 60px;
+    }
+    
+    #project {
+        font-family: 'Piedra', cursive;
+    }
+    
+    @media only screen and (max-width: 1000px) {
+        .instruction {
+            font-size: 28px;
+            width: 70vw;
+        }
+    }
+    
+    @media only screen and (max-width: 450px) {
+        .instruction {
+            font-size: 23px;
+            width: 70vw;
+            margin: auto;
+            margin-top: 60px;
+        }
+    }
+    
+    .instruction a {
+        color: white;
+        text-decoration: none;
+        cursor: pointer
+    }
+    
+    .instruction a:hover {
+        background-color: rgb(192, 29, 29);
+        padding: 6px;
+        border-radius: 12px;
+    }
+    
+    .foot {
+        background-color: black;
+        position: fixed;
+        bottom: 0px;
+        color: wheat;
+        width: 100vw;
+    }
